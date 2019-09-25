@@ -4,7 +4,6 @@ import glob
 from sklearn.utils import shuffle
 import numpy as np
 
-
 def load_train(train_path, image_size, classes):
     images = []
     labels = []
